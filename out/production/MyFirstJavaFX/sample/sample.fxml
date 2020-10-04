@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<children>
+   <TextField fx:id="field2" layoutX="208.0" layoutY="535.0" prefHeight="58.0" prefWidth="162.0" />
+   <TextField fx:id="field1" layoutX="14.0" layoutY="535.0" prefHeight="58.0" prefWidth="162.0" />
+      <Button fx:id="minus" layoutX="10.0" layoutY="366.0" mnemonicParsing="false" onAction="#startMinus" prefHeight="70.0" prefWidth="70.0" text="-">
+         <font>
+            <Font name="Segoe UI" size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="div" layoutX="208.0" layoutY="376.0" mnemonicParsing="false" onAction="#startMult" prefHeight="70.0" prefWidth="70.0" text="*">
+         <font>
+            <Font name="Segoe UI" size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="mult" layoutX="289.0" layoutY="376.0" mnemonicParsing="false" onAction="#startDiv" prefHeight="70.0" prefWidth="70.0" text="/">
+         <font>
+            <Font name="Segoe UI" size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="plus" layoutX="87.0" layoutY="366.0" mnemonicParsing="false" onAction="#startPlus" prefHeight="70.0" prefWidth="70.0" text="+">
+         <font>
+            <Font name="Segoe UI" size="31.0" />
+         </font>
+      </Button>
+      <Separator layoutX="-1.0" layoutY="146.0" prefHeight="3.0" prefWidth="400.0" />
+      <Label fx:id="label" alignment="CENTER" layoutX="10.0" layoutY="29.0" prefHeight="98.0" prefWidth="369.0" text="тут будет ответ">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="sqrt" layoutX="95.0" layoutY="275.0" mnemonicParsing="false" onAction="#startSqrt" prefHeight="70.0" prefWidth="70.0" text="√">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="fact" layoutX="10.0" layoutY="275.0" mnemonicParsing="false" onAction="#startFact" prefHeight="70.0" prefWidth="70.0" text="!">
+         <font>
+            <Font name="Segoe UI" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="pow" layoutX="200.0" layoutY="282.0" mnemonicParsing="false" onAction="#startPow" prefHeight="70.0" prefWidth="70.0" text="^">
+         <font>
+            <Font name="Segoe UI" size="32.0" />
+         </font>
+      </Button>
+      <Button fx:id="funct" layoutX="289.0" layoutY="282.0" mnemonicParsing="false" onAction="#startFunct" prefHeight="70.0" prefWidth="70.0" text="1/x">
+         <font>
+            <Font name="Segoe UI" size="24.0" />
+         </font>
+      </Button>
+      <Separator layoutX="3.0" layoutY="487.0" prefHeight="3.0" prefWidth="400.0" />
+</children>
+</Pane>
